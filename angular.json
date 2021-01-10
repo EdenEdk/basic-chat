@@ -3,13 +3,9 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "basic-chatt": {
+    "basic-chat": {
       "projectType": "application",
-      "schematics": {
-        "@schematics/angular:component": {
-          "style": "less"
-        }
-      },
+      "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -17,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/basic-chatt",
+            "outputPath": "dist/basic-chat",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -25,10 +21,11 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest"
             ],
             "styles": [
-              "src/styles.less"
+              "src/styles.css"
             ],
             "scripts": []
           },
@@ -58,25 +55,27 @@
                   "maximumWarning": "6kb",
                   "maximumError": "10kb"
                 }
-              ]
+              ],
+              "serviceWorker": true,
+              "ngswConfigPath": "ngsw-config.json"
             }
           }
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "basic-chatt:build"
+            "browserTarget": "basic-chat:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "basic-chatt:build:production"
+              "browserTarget": "basic-chat:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "basic-chatt:build"
+            "browserTarget": "basic-chat:build"
           }
         },
         "test": {
@@ -88,10 +87,11 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest"
             ],
             "styles": [
-              "src/styles.less"
+              "src/styles.css"
             ],
             "scripts": []
           }
@@ -113,16 +113,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "basic-chatt:serve"
+            "devServerTarget": "basic-chat:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "basic-chatt:serve:production"
+              "devServerTarget": "basic-chat:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "basic-chatt"
+  "defaultProject": "basic-chat"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "basic-chatt",
+  "name": "basic-chat",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "start-pwa": "ng build --prod && http-server -p 8080 -c-1 dist/basic-chat",
+    "predeploy": "ng build --prod --base-href=/basic-chat/",
+    "deploy": "npx gh-pages -d dist/basic-chat"
   },
   "private": true,
   "dependencies": {
@@ -19,6 +22,8 @@
     "@angular/platform-browser": "~11.0.6",
     "@angular/platform-browser-dynamic": "~11.0.6",
     "@angular/router": "~11.0.6",
+    "@angular/service-worker": "~11.0.6",
+    "http-server": "^0.12.3",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
