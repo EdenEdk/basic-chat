@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1610274547144,
-  "index": "/basic-chatt/index.html",
+  "timestamp": 1610277128722,
+  "index": "/basic-chat/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/basic-chatt/favicon.ico",
-        "/basic-chatt/index.html",
-        "/basic-chatt/main.a406f9056e2470daafc4.js",
-        "/basic-chatt/manifest.webmanifest",
-        "/basic-chatt/polyfills.8c151b8375e767ff858f.js",
-        "/basic-chatt/runtime.0e49e2b53282f40c8925.js",
-        "/basic-chatt/styles.3ff695c00d717f2d2a11.css"
+        "/basic-chat/favicon.ico",
+        "/basic-chat/index.html",
+        "/basic-chat/main.68cfdf5c3dfdb2f99a70.js",
+        "/basic-chat/manifest.webmanifest",
+        "/basic-chat/polyfills.8c151b8375e767ff858f.js",
+        "/basic-chat/runtime.0e49e2b53282f40c8925.js",
+        "/basic-chat/styles.3ff695c00d717f2d2a11.css"
       ],
       "patterns": []
     },
@@ -29,35 +29,35 @@
         "ignoreVary": true
       },
       "urls": [
-        "/basic-chatt/assets/icons/icon-128x128.png",
-        "/basic-chatt/assets/icons/icon-144x144.png",
-        "/basic-chatt/assets/icons/icon-152x152.png",
-        "/basic-chatt/assets/icons/icon-192x192.png",
-        "/basic-chatt/assets/icons/icon-384x384.png",
-        "/basic-chatt/assets/icons/icon-512x512.png",
-        "/basic-chatt/assets/icons/icon-72x72.png",
-        "/basic-chatt/assets/icons/icon-96x96.png"
+        "/basic-chat/assets/icons/icon-128x128.png",
+        "/basic-chat/assets/icons/icon-144x144.png",
+        "/basic-chat/assets/icons/icon-152x152.png",
+        "/basic-chat/assets/icons/icon-192x192.png",
+        "/basic-chat/assets/icons/icon-384x384.png",
+        "/basic-chat/assets/icons/icon-512x512.png",
+        "/basic-chat/assets/icons/icon-72x72.png",
+        "/basic-chat/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/basic-chatt/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/basic-chatt/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/basic-chatt/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/basic-chatt/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/basic-chatt/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/basic-chatt/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/basic-chatt/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/basic-chatt/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "/basic-chatt/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/basic-chatt/index.html": "70f79442dea700ab3ce06f0b205887a5c26c38a3",
-    "/basic-chatt/main.a406f9056e2470daafc4.js": "130c5c353c89776d4faf0735b9a8337e5c8ea71d",
-    "/basic-chatt/manifest.webmanifest": "f93565101314fd1be2edbd1ff602af12f63a066e",
-    "/basic-chatt/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
-    "/basic-chatt/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/basic-chatt/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "/basic-chat/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/basic-chat/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/basic-chat/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/basic-chat/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/basic-chat/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/basic-chat/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/basic-chat/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/basic-chat/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/basic-chat/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/basic-chat/index.html": "8c00fa526633a4e19d4961f34d5aa8f1c5048b73",
+    "/basic-chat/main.68cfdf5c3dfdb2f99a70.js": "74451107a3df0dd42a5fee71a8a32c6bc62b90e3",
+    "/basic-chat/manifest.webmanifest": "3c0a0c2cd81efd34086b957fa0d56358f82008bd",
+    "/basic-chat/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "/basic-chat/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/basic-chat/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "navigationUrls": [
     {

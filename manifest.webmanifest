@@ -1,6 +1,6 @@
 {
-  "name": "basic-chatt",
-  "short_name": "basic-chatt",
+  "name": "basic-chat",
+  "short_name": "basic-chat",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
